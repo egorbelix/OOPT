@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Реестр ООПТ Свердловской области</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2c5f2d; /* тёмно-зелёный, "природный" цвет */
+        }
+        .map-container {
+            margin: 20px 0;
+        }
+        .proposal-link {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .proposal-link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Приветствуем в базе данных Особо Охраняемых Природных Территорий Свердловской области</h1>
+    
+    <p>Здесь вы можете ознакомиться с Особо Охраняемыми Природными Территориями в Свердловской области.</p>
+    
+    <h2>Интерактивная карта</h2>
+    
+    <div class="map-container">
+        <iframe
+            src="./Карта_финальная.pdf" 
+            width="100%" 
+            height="600px"
+            style="border: 1px solid #ccc;">
+        </iframe>
+    </div>
+    
+    <a class="proposal-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeNj1YGs74sGauYEWMMTeVMFV2xI32M3E8mgG1Km8eBGHfPzA/viewform?usp=header">
+        🌿 Предложить свой Особо Охраняемый Объект
+    </a>
+
+    <h2>Уже опубликованные ООПТ</h2>
+    <ul>
+        <li><a href="https://denkamen.ru/" target="_blank">Денежкин Камень</a></li>
+        <li><a href="https://visimskiy.ru/" target="_blank">Висимский заповедник</a></li>
+        <li><a href="https://рекачусовая.рф/" target="_blank">Природный парк "Река Чусовая"</a></li>
+        <li><a href="https://olenpark.ru/" target="_blank">Природный парк "Оленьи ручьи"</a></li>
+        <li><a href="https://bm-park.ru/posetitelyam/marshruty/" target="_blank">Природный парк "Бажовские места"</a></li>
+    </ul>
+
+</body>
+</html>
